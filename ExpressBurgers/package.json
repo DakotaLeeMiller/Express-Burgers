@@ -1,0 +1,23 @@
+{
+  "name": "expressburgers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DakotaLeeMiller/Express-Burgers.git"
+  },
+  "author": "Dakota Miller, Cody Watts, Benito Luna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DakotaLeeMiller/Express-Burgers/issues"
+  },
+  "homepage": "https://github.com/DakotaLeeMiller/Express-Burgers#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "pug": "^2.0.3"
+  }
+}
