@@ -1,0 +1,13 @@
+{
+    "navi": [
+        ["Home", "/"],
+        ["Menu", "menu"],
+        ["Directions", "directions"]
+    ],
+
+    "menu": [
+        ["Burgers", "burger"],
+        ["Sides", "side"],
+        ["Desserts", "dessert"]
+    ]
+}
