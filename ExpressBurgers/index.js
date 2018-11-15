@@ -27,7 +27,7 @@ app.get("/side", function(req, res) {
 });
 
 app.get("/dessert", function(req, res) {
-    res.render("Dessert", {
+    res.render("Desserts", {
         "config":config
     })
 });
