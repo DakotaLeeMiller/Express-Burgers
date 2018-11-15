@@ -1,0 +1,17 @@
+doctype html
+html
+    head
+        link(href="style.css" rel="stylesheet")
+        title There be Pugs About
+
+    body
+        header
+            nav
+                ul
+                    each item in config.navi
+                        a(href=item[1])
+                            div(class="menu_item")
+                                li(id=item[1])  #{item[0]}
+        h1 *InsertNamHere*
+        block content
+        footer *InsertFooterHere*
