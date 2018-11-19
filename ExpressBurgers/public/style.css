@@ -1,0 +1,18 @@
+/* Layout */
+#logo {
+    width: 158.4px;
+    height: 158.4px;
+}
+
+#title {
+    vertical-align: top;
+}
+
+#right {
+    color: blue;
+    width: 70px;
+    border: 2px solid black;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
