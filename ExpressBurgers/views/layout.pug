@@ -2,20 +2,24 @@ doctype html
 html
     head
         link(href="style.css" rel="stylesheet")
+        meta(charset='utf-8')
         title Space Junk Diner
 
     body
         header
+            h1
+                a(href=config.navi[0][1])
+                    img(id="logo" src="/img/spaceDinerIcon.png")
+                em(id="title") SPACE JUNK DINER
+        div(id="right") Directions
+            
             nav
                 ul
-                    each item in config.navi
-                        a(href=item[1])
-                            div(class="menu_item")
-                                li(id=item[1])  #{item[0]}
                     each item in config.menu
                         a(href=item[1])
                             div(class="menu_item")
                                 li(id=item[1])  #{item[0]}
-        h1 *InsertNamHere*
+            
         block content
-        footer *InsertFooterHere*
+        footer 
+            em Website by Benito Luna, Dakota Miller, Cody Watts © 2018
