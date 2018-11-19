@@ -7,33 +7,33 @@
     "menu": [
         ["Burgers", "burger"],
         ["Sides", "side"],
-        ["Desserts", "dessert"]
+        ["Drinks", "drinks"]
     ],
 
     "burgers": [
-        {"name":"Burger1", "price":"0.0", "image":"/img/test.png", "desc":"*Placeholder*" },
-        {"name":"Burger2", "price":"0.0", "image":"/img/test.png", "desc":"*Placeholder*" },
-        {"name":"Burger3", "price":"0.0", "image":"/img/test.png", "desc":"*Placeholder*" },
-        {"name":"Burger4", "price":"0.0", "image":"/img/test.png", "desc":"*Placeholder*" },
-        {"name":"Burger5", "price":"0.0", "image":"/img/test.png", "desc":"*Placeholder*" },
-        {"name":"Burger6", "price":"0.0", "image":"/img/test.png", "desc":"*Placeholder*" }
+        {"name":"Holoburger", "price":"0.0", "image":"/img/holoBurger.jpg", "desc":"Stimulate your electrons at a whopping ZERO calories!" },
+        {"name":"Zerger", "price":"0.0", "image":"/img/zerger.jpg", "desc":"Slimy deliciousness packed with chest-bursting flavor!" },
+        {"name":"Abe’s Oddysee", "price":"0.0", "image":"/img/abeBurger.jpg", "desc":"Mudokon- the other white meat! (Warning: May contain bones, fingers, etc.)" },
+        {"name":"Space Meat", "price":"0.0", "image":"/img/spaceMeatBurger.jpg", "desc":"Mysterious flavors peeled straight from the windshield of the mothership!" },
+        {"name":"Black Hole Burger", "price":"0.0", "image":"/img/blackHoleBurger.jpg", "desc":"Make your insides implode with this local favorite!" },
+        {"name":"[UKNOWN OPERATION]", "price":"0.0", "image":"/img/error.gif", "desc":"[01001000-01000101-01001100-01010000]" }
     ],
 
     "sides": [
-        {"name":"Side1", "price":"0.0", "image":"/img/test.png", "desc":"*Placeholder*" },
-        {"name":"Side2", "price":"0.0", "image":"/img/test.png", "desc":"*Placeholder*" },
-        {"name":"Side3", "price":"0.0", "image":"/img/test.png", "desc":"*Placeholder*" },
-        {"name":"Side4", "price":"0.0", "image":"/img/test.png", "desc":"*Placeholder*" },
-        {"name":"Side5", "price":"0.0", "image":"/img/test.png", "desc":"*Placeholder*" },
-        {"name":"Side6", "price":"0.0", "image":"/img/test.png", "desc":"*Placeholder*" }
+        {"name":"Tentacle Fries", "price":"0.0", "image":"/img/fries.jpg", "desc":"Still wriggling with taste!" },
+        {"name":"Space Whale Rings", "price":"0.0", "image":"/img/onionRings.jpg", "desc":"A deep-space favorite in orbital-batter crust." },
+        {"name":"Mashed Space Follicles", "price":"0.0", "image":"/img/mashedPotatoes.jpg", "desc":"Home-cooked goodness right at your table!" },
+        {"name":"Cadet Biscuit", "price":"0.0", "image":"/img/cadetBiscuit.jpg", "desc":"Contains all essential nutrients. Please heat for at least 15 seconds in the zicronwave." },
+        {"name":"Cat", "price":"0.0", "image":"/img/cat.jpg", "desc":"Make your taste-buds “meow” with delight!" },
+        {"name":"[I AM ERROR]", "price":"0.0", "image":"/img/alienOverlord.gif", "desc":"[Incoming Transmission: “FEAR me human empire! I am ZELGAMESH, your new overlord!”]" }
     ],
 
-    "desserts": [
-        {"name":"Dessert1", "price":"0.0", "image":"/img/test.png", "desc":"*Placeholder*" },
-        {"name":"Dessert2", "price":"0.0", "image":"/img/test.png", "desc":"*Placeholder*" },
-        {"name":"Dessert3", "price":"0.0", "image":"/img/test.png", "desc":"*Placeholder*" },
-        {"name":"Dessert4", "price":"0.0", "image":"/img/test.png", "desc":"*Placeholder*" },
-        {"name":"Dessert5", "price":"0.0", "image":"/img/test.png", "desc":"*Placeholder*" },
-        {"name":"Dessert6", "price":"0.0", "image":"/img/test.png", "desc":"*Placeholder*" }
+    "drinks": [
+        {"name":"Coca-Cola", "price":"0.0", "image":"/img/coke.jpg", "desc":"These guys haven’t gone out of business yet." },
+        {"name":"GlowJuice", "price":"0.0", "image":"/img/glowJuice.png", "desc":"What will glow after one sip- the drink or you? Find out!" },
+        {"name":"Depleted Barium", "price":"0.0", "image":"/img/barium.jpg", "desc":"Good for degreasing engines and killing braincells." },
+        {"name":"Groot Juice", "price":"0.0", "image":"/img/grootJuice.jpg", "desc":"I am Groot. I am Groot." },
+        {"name":"Lenonade", "price":"0.0", "image":"/img/leninade.jpg", "desc":"Fuel your Proletariat takeover… IN SPACE!" },
+        {"name":"[SECURITY BREACH DETECTED]", "price":"0.0", "image":"/img/warning.gif", "desc":"[Initiating failsafe protocol: ERROR. Initiating containment procedures…]" }
     ]
 }
