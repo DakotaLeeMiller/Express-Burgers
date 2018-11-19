@@ -1,0 +1,39 @@
+{
+    "navi": [
+        ["Home", "/"],
+        ["Directions", "directions"]
+    ],
+
+    "menu": [
+        ["Burgers", "burger"],
+        ["Sides", "side"],
+        ["Drinks", "drinks"]
+    ],
+
+    "burgers": [
+        {"name":"Burger1", "price":"0.0", "image":"/img/test.png", "desc":"*Placeholder*" },
+        {"name":"Burger2", "price":"0.0", "image":"/img/test.png", "desc":"*Placeholder*" },
+        {"name":"Burger3", "price":"0.0", "image":"/img/test.png", "desc":"*Placeholder*" },
+        {"name":"Burger4", "price":"0.0", "image":"/img/test.png", "desc":"*Placeholder*" },
+        {"name":"Burger5", "price":"0.0", "image":"/img/test.png", "desc":"*Placeholder*" },
+        {"name":"Burger6", "price":"0.0", "image":"/img/test.png", "desc":"*Placeholder*" }
+    ],
+
+    "sides": [
+        {"name":"Side1", "price":"0.0", "image":"/img/test.png", "desc":"*Placeholder*" },
+        {"name":"Side2", "price":"0.0", "image":"/img/test.png", "desc":"*Placeholder*" },
+        {"name":"Side3", "price":"0.0", "image":"/img/test.png", "desc":"*Placeholder*" },
+        {"name":"Side4", "price":"0.0", "image":"/img/test.png", "desc":"*Placeholder*" },
+        {"name":"Side5", "price":"0.0", "image":"/img/test.png", "desc":"*Placeholder*" },
+        {"name":"Side6", "price":"0.0", "image":"/img/test.png", "desc":"*Placeholder*" }
+    ],
+
+    "desserts": [
+        {"name":"Drinks1", "price":"0.0", "image":"/img/test.png", "desc":"*Placeholder*" },
+        {"name":"Drinks2", "price":"0.0", "image":"/img/test.png", "desc":"*Placeholder*" },
+        {"name":"Drinks3", "price":"0.0", "image":"/img/test.png", "desc":"*Placeholder*" },
+        {"name":"Drinks4", "price":"0.0", "image":"/img/test.png", "desc":"*Placeholder*" },
+        {"name":"Drinks5", "price":"0.0", "image":"/img/test.png", "desc":"*Placeholder*" },
+        {"name":"Drinks6", "price":"0.0", "image":"/img/test.png", "desc":"*Placeholder*" }
+    ]
+}
