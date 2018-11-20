@@ -7,17 +7,18 @@ html
 
     body
         header
-            h1
+            h1  
                 a(href=config.navi[0][1])
-                    img(id="logo" src="/img/spaceDinerIcon.png")
+                    img(id="logo" src="/img/spaceDinerIcon.png" class="wiggle-me")
                 em(id="title") SPACE JUNK DINER
             
             nav
                 ul
                     each item in config.menu
-                        a(href=item[1] class="menu_text")
-                            div(class="menu_item")
-                                li(id=item[1])  #{item[0]}
+                        div(class="wiggle-me")
+                            a(href=item[1] class="menu_text")
+                                div(class="menu_item")
+                                    li(id=item[1])  #{item[0]}
 
             a(href=config.navi[1][1])
                 div(id="right") Direction

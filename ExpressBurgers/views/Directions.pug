@@ -3,15 +3,17 @@ extends layout
 block content
     body
         header
-            h2 Directions Page
-        div(id="Text")
-            p Here's where you can experience a space worthy meal!
-            p 562 E 400 S, Salt Lake City, UT 84102
-        div(id="Map")
-            iframe(
-                width="500",
-                height="500",
-                frameborder="0",
-                style="border:0",
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.0795277867282!2d-111.87688122033657!3d40.76027554269914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8752f56958a4a0c3%3A0x7774caf22f1d5eb0!2s562+E+400+S%2C+Salt+Lake+City%2C+UT+84102!5e0!3m2!1sen!2sus!4v1542396601862",
-                allowfullscreen)
+            h2 Directions
+
+        div(class="center")
+            div(id="Text")
+                p Here's where you can experience a space worthy meal!
+                p 562 E 400 S, Salt Lake City, UT 84102
+            div(id="Map")
+                iframe(
+                    width="500",
+                    height="500",
+                    frameborder="0",
+                    style="border:0",
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.0795277867282!2d-111.87688122033657!3d40.76027554269914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8752f56958a4a0c3%3A0x7774caf22f1d5eb0!2s562+E+400+S%2C+Salt+Lake+City%2C+UT+84102!5e0!3m2!1sen!2sus!4v1542396601862",
+                    allowfullscreen)
