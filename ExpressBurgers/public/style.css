@@ -1,0 +1,135 @@
+body {
+    height: 100%;
+    background: rgb(235, 253, 255);
+    background: linear-gradient(180deg, rgba(235, 253, 255, 1) 0%, rgba(161, 211, 217, 1) 95%);
+}
+
+/* Layout */
+#logo {
+    width: 158.4px;
+    height: 158.4px;
+    margin-left: 20px;
+}
+
+#title {
+    vertical-align: top;
+}
+
+#right {
+    width: 150px;
+    border: 2px solid #1cade4;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 25px;
+    margin: 35px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    background-color: white;
+}
+
+.menu_item {
+    border: 2px solid black;
+    list-style-type: none;
+    float: left;
+    width: 295.68px;
+    padding: 100px 20px;
+    margin: 10px;
+    margin-left: 100px;
+    background-color: #77ceef;
+}
+
+#clear {
+    clear: both;
+}
+
+#content {
+    width: 50%;
+    padding: 10px;
+}
+
+.menu_text {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+}
+
+/* Title */
+#title {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+/* Menu Layout */
+.col {
+    float: left;
+}
+
+#menu {
+    list-style-type: none;
+}
+
+.items {
+    border: black solid 2px;
+    background-color: whitesmoke;
+    padding: 10px;
+    margin: 10px;
+}
+
+.items:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#center {
+    margin: auto;
+    width: 50%;
+    float: left;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+}
+
+.price {
+    font-size: 20px;
+    text-align: center;
+}
+
+.desc {
+    font-size: 20px;
+    text-align: center;
+}
+
+.col,
+img {
+    width: 250px;
+    height: 250px;
+}
+
+/* Directions */
+.center {
+    margin: auto;
+    width: 50%;
+}
+
+/* CSS Transitions */
+
+@-ms-keyframes wiggle{0%{-ms-transform:rotate(3deg);}50%{-ms-transform:rotate(-3deg);}100%{-ms-transform:rotate(3deg);}}
+@-moz-keyframes wiggle{0%{-moz-transform:rotate(3deg);}50%{-moz-transform:rotate(-3deg);}100%{-moz-transform:rotate(3deg);}}
+@-webkit-keyframes wiggle{0%{-webkit-transform:rotate(3deg);}50%{-webkit-transform:rotate(-3deg);}100%{-webkit-transform:rotate(3deg);}}
+@keyframes wiggle{0%{transform:rotate(3deg);}50%{transform:rotate(-3deg);}100%{transform:rotate(3deg);}}
+.wiggle-me:hover{-ms-animation:wiggle .3s 2;-moz-animation:wiggle .3s 2;-webkit-animation:wiggle .3s 2;animation:wiggle .3s 2;}

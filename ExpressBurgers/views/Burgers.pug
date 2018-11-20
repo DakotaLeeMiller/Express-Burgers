@@ -1,0 +1,16 @@
+extends layout
+
+block content
+    h1 Burgers   
+
+    ul
+        each val, x in config.burgers
+            li(id="menu")
+                div(id="center")
+                    div(class="items")
+                        div(class="col")
+                            img(src=val.image)
+                        div(class="col")
+                            div(class="name") #{val.name}
+                            div(class="price") $#{val.price}
+                            div(class="desc") #{val.desc}
