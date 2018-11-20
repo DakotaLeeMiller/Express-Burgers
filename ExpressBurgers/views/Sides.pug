@@ -2,3 +2,10 @@ extends layout
 
 block content
     h1 Sides Page
+    ul
+        each val, x in config.sides
+            li
+                div(class="side_items")
+                    div(id="side" + x) #{val.name} #{val.price}
+                    img(src=val.image)
+                    div(id="side" + x) #{val.desc}

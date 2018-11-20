@@ -1,4 +1,12 @@
 extends layout
 
 block content
-    h1 Desserts Page
+    h1 Drinks Page
+
+    ul
+        each val, x in config.drinks
+            li
+                div(class="drink_items")
+                    div(id="drink" + x) #{val.name} #{val.price}
+                    img(src=val.image)
+                    div(id="drink" + x) #{val.desc}
