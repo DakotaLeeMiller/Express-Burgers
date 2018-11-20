@@ -1,7 +1,7 @@
-html {
+body {
     height: 100%;
-    background: rgb(235,253,255);
-    background: linear-gradient(180deg, rgba(235,253,255,1) 0%, rgba(161,211,217,1) 95%);
+    background: rgb(235, 253, 255);
+    background: linear-gradient(180deg, rgba(235, 253, 255, 1) 0%, rgba(161, 211, 217, 1) 95%);
 }
 
 /* Layout */
@@ -29,14 +29,14 @@ html {
     background-color: white;
 }
 
-.menu_item { 
+.menu_item {
     border: 2px solid black;
     list-style-type: none;
     float: left;
     width: 295.68px;
     padding: 100px 20px;
     margin: 10px;
-    margin-left: 100px; 
+    margin-left: 100px;
     background-color: #77ceef;
 }
 
@@ -56,10 +56,10 @@ html {
     text-align: center;
 }
 
-footer { 
-    position:absolute;
-    bottom:0;
-    right:0;
+footer {
+    position: relative;
+    bottom: 0;
+    right: 0;
     margin: 10px;
 }
 
@@ -68,4 +68,55 @@ footer {
     margin: auto;
     width: 50%;
     padding: 10px;
+}
+
+/* Menu Layout */
+.col {
+    float: left;
+}
+
+#menu {
+    list-style-type: none;
+}
+
+.items {
+    border: black solid 2px;
+    background-color: whitesmoke;
+    padding: 10px;
+    margin: 10px;
+}
+
+.items:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#center {
+    margin: auto;
+    width: 50%;
+    float: left;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+}
+
+.price {
+    font-size: 20px;
+    text-align: center;
+}
+
+.desc {
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Temp */
+.col,
+img {
+    width: 250px;
+    height: 250px;
 }
