@@ -16,7 +16,7 @@
         {"name":"Abe’s Oddysee", "price":"10.99", "image":"/img/abeBurger.png", "desc":"Mudokon- the other white meat! (Warning: May contain bones, fingers, etc.)" },
         {"name":"Space Meat", "price":"7.99", "image":"/img/spaceBurger.png", "desc":"Mysterious flavors peeled straight from the windshield of the mothership!" },
         {"name":"Black Hole Burger", "price":"8.50", "image":"/img/blackHoleBurger.png", "desc":"Make your insides implode with this local favorite!" },
-        {"name":"[UKNOWN OPERATION]", "price":"11.99", "image":"/img/error.gif", "desc":"[01001000-01000101-01001100-01010000]" }
+        {"name":"[UKNOWN OPERATION]", "price":"??.??", "image":"/img/error.gif", "desc":"[01001000-01000101-01001100-01010000]" }
     ],
 
     "sides": [
@@ -25,7 +25,7 @@
         {"name":"Mashed Space Follicles", "price":"2.99", "image":"/img/mashedPotatoes.png", "desc":"Home-cooked goodness right at your table!" },
         {"name":"Cadet Biscuit", "price":".50", "image":"/img/cadetBiscuit.png", "desc":"Contains all essential nutrients. Please heat for at least 15 seconds in the zicronwave." },
         {"name":"Cat", "price":"3.99", "image":"/img/cat.png", "desc":"Make your taste-buds “meow” with delight!" },
-        {"name":"[I AM ERROR]", "price":"2.50", "image":"/img/alienOverlord.gif", "desc":"[Incoming Transmission: “FEAR me human empire! I am ZELGAMESH, your new overlord!”]" }
+        {"name":"[I AM ERROR]", "price":"??.??", "image":"/img/alienOverlord.gif", "desc":"[Incoming Transmission: “FEAR me human empire! I am ZELGAMESH, your new overlord!”]" }
     ],
 
     "drinks": [
@@ -34,6 +34,6 @@
         {"name":"Depleted Barium", "price":"2.50", "image":"/img/barium.png", "desc":"Good for degreasing engines and killing braincells." },
         {"name":"Groot Juice", "price":"2.50", "image":"/img/grootJuice.png", "desc":"I am Groot. I am Groot." },
         {"name":"Lenonade", "price":"1.99", "image":"/img/leninade.png", "desc":"Fuel your Proletariat takeover… IN SPACE!" },
-        {"name":"[SECURITY BREACH DETECTED]", "price":"2.99", "image":"/img/warning.gif", "desc":"[Initiating failsafe protocol: ERROR. Initiating containment procedures…]" }
+        {"name":"[SECURITY BREACH DETECTED]", "price":"??.??", "image":"/img/warning.gif", "desc":"[Initiating failsafe protocol: ERROR. Initiating containment procedures…]" }
     ]
 }

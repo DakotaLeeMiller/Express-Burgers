@@ -1,12 +1,16 @@
 extends layout
 
 block content
-    h1 Drinks Page
+    h1 Drinks 
 
     ul
         each val, x in config.drinks
-            li
-                div(class="drink_items")
-                    div(id="drink" + x) #{val.name} #{val.price}
-                    img(src=val.image)
-                    div(id="drink" + x) #{val.desc}
+            li(id="menu")
+                div(id="center")
+                    div(class="items")
+                        div(class="col")
+                            img(src=val.image)
+                        div(class="col")
+                            div(class="name") #{val.name}
+                            div(class="price") $#{val.price}
+                            div(class="desc") #{val.desc}
