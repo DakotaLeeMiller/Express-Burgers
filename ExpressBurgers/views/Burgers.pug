@@ -1,4 +1,11 @@
 extends layout
 
 block content
-    h1 Burgers Page
+    h1 Burgers Page   
+    ul
+        each val, x in config.burgers
+            li
+                div(class="burger_items")
+                    div(id="burger" + x) #{val.name} #{val.price}
+                    img(src=val.image)
+                    div(id="burger" + x) #{val.desc}
