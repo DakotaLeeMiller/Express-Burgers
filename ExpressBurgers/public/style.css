@@ -1,7 +1,14 @@
+html {
+    height: 100%;
+    background: rgb(235,253,255);
+    background: linear-gradient(180deg, rgba(235,253,255,1) 0%, rgba(161,211,217,1) 95%);
+}
+
 /* Layout */
 #logo {
     width: 158.4px;
     height: 158.4px;
+    margin-left: 20px;
 }
 
 #title {
@@ -9,10 +16,50 @@
 }
 
 #right {
-    color: blue;
-    width: 70px;
-    border: 2px solid black;
+    width: 150px;
+    border: 2px solid #1cade4;
     position: absolute;
     top: 0px;
     right: 0px;
+    font-size: 25px;
+    margin: 35px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    background-color: white;
+}
+
+.menu_item { 
+    border: 2px solid black;
+    list-style-type: none;
+    float: left;
+    width: 295.68px;
+    padding: 100px 20px;
+    margin: 10px;
+    margin-left: 100px; 
+    background-color: #77ceef;
+}
+
+#clear {
+    clear: both;
+}
+
+#content {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.menu_text {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}
+
+footer { 
+    position:absolute;
+    bottom:0;
+    right:0;
+    margin: 10px;
 }
